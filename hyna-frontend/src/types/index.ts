@@ -73,6 +73,7 @@ export interface Module {
 
 // --- Task ---
 export interface Task {
+  [x: string]: string;
   id: string;
   title: string;
   description: string;
